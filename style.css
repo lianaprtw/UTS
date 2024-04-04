@@ -43,3 +43,37 @@ nav ul li a {
     color: black;
     font-weight: bold;
 }
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end ;
+    justify-content: center;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(assets/GettyImages-1461309413-d11bbc69d38145f5923533dd17d2256f.jpg)
+}
+
+.header-content {
+    margin-bottom: 250px;
+    color: black;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 10vmin;
+}
+
+.header-content h2 {
+    font-size: 5vmin;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 15px 25px;
+    background: black;
+    border-radius: 20px;
+    color: pink;
+    font-size: 20px;
+}
