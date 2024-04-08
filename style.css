@@ -86,6 +86,25 @@ section {
     margin: auto;
 }
 
+.deskripsi {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+    margin-top: 0;
+    padding: 60px;
+    align-items: center;
+    grid-gap: 100px;  
+    background: pink;
+}
+
+.deskripsi h3 {
+    font-size: 50px;
+}
+
+.deskripsi p {
+    line-height: 1.5;
+    font-size: 20px;
+}
 .title {
     margin-top: 80px;
     padding: 50px;
