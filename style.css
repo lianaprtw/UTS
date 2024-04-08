@@ -77,3 +77,63 @@ header {
     color: pink;
     font-size: 20px;
 }
+.ctn:hover {
+    background: white;
+}
+
+section {
+    width: 100%;
+    margin: auto;
+}
+
+.title {
+    margin-top: 80px;
+    padding: 50px;
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    margin-top: 10px;
+    padding: 50px;
+    align-items: center;
+    grid-gap: 100px;
+}
+
+.grid h2 {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.grid p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.grid article:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 3); 
+    transform: scale(1.03);
+}
+
+.grid img {
+    object-fit: cover;
+    height: 350px;
+} 
+
+.grid article {
+    border-radius: 5px;
+    background: pink;
+    text-align: center;
+    width: 350px;
+    padding: 30px 25px;
+}
+
+@media (max-width:800px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
