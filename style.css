@@ -9,14 +9,16 @@ body, html {
 }
 
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 .logo {
@@ -90,7 +92,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: 0;
-    margin-top: 0;
+    margin-top: 80px;
     padding: 60px;
     align-items: center;
     grid-gap: 100px;  
@@ -149,6 +151,74 @@ section {
     text-align: center;
     width: 350px;
     padding: 30px 25px;
+}
+
+.container {
+    background: pink;
+}
+
+.container .title {
+    margin-top: 80px;
+    padding: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+}
+
+.container .box-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+}
+
+.container .box-container .box {
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin: 40px;
+}
+
+.container .box-container .box h3 {
+    color: black;
+    font-size: 28px;
+    left: 0;
+    right: 0;
+    margin-bottom: 25px;
+}
+
+.container .box-container .box h2 {
+    color: black;
+    font-size: 40px;
+    left: 0;
+    right: 0;
+    margin-bottom: 25px;
+}
+
+.container .box-container .box p {
+    color: black;
+    font-size: 17px;
+    left: 0;
+    right: 0;
+    margin-bottom: 25px;
+    line-height: 0.5;
+}
+
+.container .box-container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: black;
+    color: pink;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    text-decoration: none;
+}
+
+.container .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 2); 
+    transform: scale(1.03);
 }
 
 @media (max-width:800px) {
