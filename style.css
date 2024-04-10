@@ -50,6 +50,10 @@ nav ul li a {
     font-weight: bold;
 }
 
+.navbar ul li a:hover {
+    color: white;
+}
+
 header {
     width: 100vw;
     height: 100vh;
@@ -132,11 +136,14 @@ section {
 .grid h2 {
     font-size: 22px;
     padding: 10px 0;
+    margin-left: 60px;
+    text-align: center;
 }
 
 .grid p {
     font-size: 17px;
     line-height: 1.5;
+    text-align: center;
 }
 
 .grid article:hover {
@@ -190,6 +197,7 @@ section {
     left: 0;
     right: 0;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .container .box-container .box h2 {
@@ -198,6 +206,7 @@ section {
     left: 0;
     right: 0;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .container .box-container .box p {
@@ -335,7 +344,7 @@ section {
 .konten .contact-info .box .icon {
     min-width: 60px;
     height: 60px;
-    background: palevioletred;
+    background: pink;
     display: flex;
     justify-content: center;
     align-items: center;
