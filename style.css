@@ -258,6 +258,38 @@ section {
     font-size: 17px;
 }
 
+.container-about {
+    background: white;
+}
+
+.container-about .title {
+    margin-top: 80px;
+    padding: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+}
+
+.deskripsi-about {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+    margin-top: 80px;
+    padding: 60px;
+    align-items: center;
+    grid-gap: 0px;  
+}
+
+.deskripsi-about p {
+    font-size: 20px;
+    line-height: 1.5;
+    background: pink;
+    width: 700px;
+    height: 550px;
+    padding: 35px;
+}
+
 @media (max-width:800px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
