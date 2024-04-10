@@ -290,6 +290,145 @@ section {
     padding: 35px;
 }
 
+.container-contact .title {
+    margin-top: 80px;
+    padding: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+}
+
+.konten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 2;
+}
+
+.konten .contact-info h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.konten .contact-info p {
+    font-weight: 300;
+}
+
+.konten .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.konten .contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.konten .contact-info .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    font-size: 20px;
+}
+
+.konten .contact-info .box .text h3 {
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+    color: deeppink;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.konten .contact-info .box .text p {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 40px;
+    background: white;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    color: deeppink;
+    font-weight: bold;
+}
+
+.contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .input-box input  {
+    width: 50%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact-form .input-box textarea {
+    width: 50%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:valid ~ span
+{
+    color: black;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"] {
+    width: 100px;
+    background: black;
+    color: pink;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
 @media (max-width:800px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
